@@ -1,0 +1,132 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	color:#444;
+}
+#titles h1, #titles h4, #titles a{
+	color:#EEE;
+	text-shadow: 0px 0px 20px #000;
+}
+#titles a:hover{
+	color:#AAA;
+}
+#titles h1, #titles-alt h1{
+	font-size:3em;
+}
+.clear-both{
+	clear:both;
+}
+.hand-font a, .hand-font{
+	font-family: 'Architects Daughter', cursive;
+	text-decoration:none;
+	color:#999;
+}
+.hand-font a:hover{
+	color:#444;
+}
+.large-text {
+	font-size:4.2em;
+	font-weight:normal;
+}
+.line-break {
+	border-top:3px dotted #AAA;
+	width:100px;
+	margin:5em auto;
+	margin-bottom:4em;
+}
+.line-break-large {
+	width:100%;
+	margin:0 auto;
+	border-top:1px dotted #CCC;	
+}
+
+#gallery1, #gallery2, #gallery3, #gallery1-ruo, #gallery2-ruo, #gallery3-ruo  {
+	background-image: url("../../img/home/img1_5120.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	min-height:100%;
+	position:absolute;
+	top:0;
+	z-index:-1;
+}
+#gallery2 {
+	background-image: url("../../img/home/img2_5120.jpg");
+}
+#gallery3 {
+	background-image: url("../../img/home/img3_5120.jpg");
+}
+
+#gallery1-ruo {
+	background-image: url("../../img/ruo/img2_5120.jpg");
+}
+#gallery2-ruo {
+	background-image: url("../../img/ruo/img2_5120.jpg");
+}
+#gallery3-ruo {
+	background-image: url("../../img/ruo/img3_5120.jpg");
+}
+
+
+
+@media (max-width:1920px) {
+	#gallery1 {
+		background-image: url("../../img/home/img1_1920.jpg");
+	}
+	#gallery2 {
+		background-image: url("../../img/home/img2_1920.jpg");
+	}
+	#gallery3 {
+		background-image: url("../../img/home/img3_1920.jpg");
+	}
+	
+	#gallery1-ruo {
+		background-image: url("../../img/ruo/img1_1920.jpg");
+	}
+	#gallery2-ruo {
+		background-image: url("../../img/ruo/img2_1920.jpg");
+	}
+	#gallery3-ruo {
+		background-image: url("../../img/ruo/img3_1920.jpg");
+	}	
+	
+}
+@media (max-width:1024px) {
+	#gallery1 {
+		background-image: url("../../img/home/img1_1024.jpg");
+	}
+	#gallery2 {
+		background-image: url("../../img/home/img2_1024.jpg");
+	}
+	#gallery3 {
+		background-image: url("../../img/home/img3_1024.jpg");
+	}
+	
+	#gallery1-ruo {
+		background-image: url("../../img/ruo/img1_1024.jpg");
+	}
+	#gallery2-ruo {
+		background-image: url("../../img/ruo/img2_1024.jpg");
+	}
+	#gallery3-ruo {
+		background-image: url("../../img/ruo/img3_1024.jpg");
+	}	
+	
+}
+.pc-icon, .face-img{
+	display:block;
+	margin-top:20px;
+	margin-left: auto;
+    margin-right: auto;
+	display:block;
+	max-width:100%;
+}
+.face-img{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.center-text {
+	text-align:center;
+}

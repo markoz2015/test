@@ -1,0 +1,145 @@
+.m-cont {
+	width:100%;
+}
+@media (max-width:900px) {
+
+	#titles{
+		text-align:center;
+		margin-top:200px;
+		min-height:100%;
+		margin-bottom:30%;
+	}
+
+}
+@media (min-width:900px) {
+	#titles{
+		text-align:center;
+		margin-top:350px;
+		min-height:100%;
+		margin-bottom:30%;
+	}
+}
+#titles-alt{
+	text-align:center;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+
+.full-page{
+	width:100%;
+	min-height:100%;
+}
+.m-wrap {
+	max-width:600px;
+	margin:0 auto;
+	margin-top:100px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.m-wrap p{
+	margin-top:1em;
+	line-height: 180%;
+	font-weight:bold;
+}
+.m-wrap a{
+	color:#000;
+}
+.m-wrap a:hover{
+	color:#888;
+}
+#footer {
+	padding-bottom:80px;
+	max-width:600px;
+	margin:0 auto;
+	font-size:0.8em;
+	text-align:center;
+}
+#footer ul{
+	padding-top:20px;
+	max-width:300px;
+	margin:0 auto;
+}
+#footer ul li{
+	list-style:none;
+	float:left;
+	margin-right:10px;
+	
+}
+#footer ul li:first-child{
+	margin-left:10px;
+}
+#footer ul li:last-child{
+	margin-right:0;
+}
+#footer ul li a, #footer p{
+	color:#999;
+}
+#footer ul li a:hover {
+	color:#444;
+}
+#login-form, #email-form {
+	max-width:300px;
+	background-color:#fff;
+	border-radius:10px;
+	padding:10px;
+	box-shadow: 0px 2px 8px #CCC;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:100px;
+}
+#email-form {
+	max-width:500px;
+	
+}
+#login-form li, #email-form li{
+	margin-bottom:15px;
+	list-style:none;
+}
+#login-form li:last-child, #email-form li:last-child{
+	margin-bottom:5px;
+}
+#login-form li input, #email-form li input{
+	width:99%;
+	font-size:1.2em;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	padding:2px;
+	border-radius:10px;
+}
+#email-form li textarea{
+	width:99%;
+}
+#tech-work {
+	max-width:1300px;
+	margin:0 auto;
+}
+#tech-work ul li{
+	width:10%;
+	float:left;
+	list-style:none;
+}
+#tech-work ul li img{
+	max-width:95%;
+}
+#prev-work{
+	max-width:1300px;
+	margin:0 auto;
+	margin-top:20px;
+}
+#prev-work img{
+	max-width:95%;
+	box-shadow: 0px 0px 10px #666;
+}
+#prev-work ul li{
+	width:32%;
+	float:left;
+	list-style:none;
+}
+#prev-work ul li ul li{
+	text-align:center;
+	width:100%;
+	clear:both;
+	margin-bottom:10px;
+}
+
